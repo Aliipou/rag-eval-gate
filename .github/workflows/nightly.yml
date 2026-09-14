@@ -1,0 +1,75 @@
+name: Nightly live eval
+
+# Runs the SAME eval gate as ci.yml, but against fresh, live model output
+# instead of committed fixtures -- this is what actually exercises the
+# real model on a schedule and catches drift the recorded-fixture gate
+# in ci.yml cannot (that one only proves verification/metrics logic
+# hasn't regressed, since its generation output is frozen).
+#
+# Needs an ANTHROPIC_API_KEY repository secret to do anything beyond the
+# deterministic ExtractiveGenerator fallback. NOT exercised in this
+# sandbox -- there is no key available here, so this workflow is
+# unverified beyond "the YAML is valid and the job steps are the right
+# ones" (see README "What is implemented / what is not").
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # 03:17 UTC daily
+  workflow_dispatch:
+
+jobs:
+  live-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Record fresh fixtures against the live model
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m eval.run_eval --record --generator anthropic --fixtures /tmp/nightly_fixtures.json
+          else
+            echo "No ANTHROPIC_API_KEY secret configured -- falling back to the" \
+                 "deterministic extractive generator so this workflow still runs" \
+                 "end-to-end, but it is not exercising a live model. Set the" \
+                 "ANTHROPIC_API_KEY secret to make this a real live-model check."
+            python -m eval.run_eval --record --generator extractive --fixtures /tmp/nightly_fixtures.json
+          fi
+
+      - name: Run the eval gate against freshly-recorded live output
+        id: eval
+        run: python -m eval.run_eval --fixtures /tmp/nightly_fixtures.json --json | tee /tmp/nightly_report.json
+
+      - name: Open an issue on regression
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '(report unavailable)';
+            try { report = fs.readFileSync('/tmp/nightly_report.json', 'utf8'); } catch (e) {}
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Nightly eval regression: ${new Date().toISOString().slice(0, 10)}`,
+              body: [
+                'The nightly live eval run failed one or more gated metrics.',
+                '',
+                '```json',
+                report,
+                '```',
+                '',
+                `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              ].join('\n'),
+              labels: ['eval-regression'],
+            });

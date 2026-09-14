@@ -1,0 +1,35 @@
+name: CI
+
+# Runs pytest and the eval gate on every push/PR, entirely against
+# recorded fixtures (eval/fixtures/recorded_responses.json) and the
+# committed corpus (corpus/data/chunks.jsonl). No network calls, no LLM
+# API key, no cost, fully deterministic -- see eval/run_eval.py and
+# README "Eval gate" for how that determinism is achieved.
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test-and-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run pytest
+        run: pytest -q --cov=rag --cov=eval --cov-report=term-missing
+
+      - name: Run the eval gate (recorded fixtures, deterministic)
+        run: python -m eval.run_eval
