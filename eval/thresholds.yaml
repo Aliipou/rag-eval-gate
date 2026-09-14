@@ -15,4 +15,4 @@
 # of the three metrics) still trips the gate.
 groundedness: 0.95
 citation_precision: 0.90
-refusal_correctness: 0.85
+refusal_correctness: 0.99
