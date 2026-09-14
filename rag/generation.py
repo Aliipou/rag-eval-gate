@@ -77,21 +77,41 @@ class ExtractiveGenerator:
 
     model_id = EXTRACTIVE_MODEL_ID
 
-    def __init__(self, max_claims: int = 4, min_overlap: int = 2):
+    def __init__(
+        self,
+        max_claims: int = 4,
+        min_overlap: int = 2,
+        high_confidence_chunk_score: float = 0.3,
+    ):
         self.max_claims = max_claims
         self.min_overlap = min_overlap
+        # A sentence from a chunk retrieval was very confident about (high
+        # cosine similarity to the whole question) only needs to share one
+        # significant word with the question, not `min_overlap`. This
+        # avoids two failure modes seen while tuning against the golden
+        # set: (a) marginal chunks matching on one generic shared word
+        # (min_overlap=1 alone let "Finland"-only overlaps through on
+        # off-topic questions), and (b) a strongly-relevant top chunk
+        # producing zero claims because none of its sentences happens to
+        # repeat >=2 of the question's exact words (min_overlap=2 alone
+        # rejected clearly-relevant chunks like "Is property protected...?"
+        # -> Section 15, whose only shared content word is "property").
+        self.high_confidence_chunk_score = high_confidence_chunk_score
 
     def generate(self, question: str, chunks: list[RetrievedChunk]) -> GenerationOutput:
         q_tokens = _tokens(question)
         candidates: list[tuple[float, str, str]] = []  # (score, sentence, chunk_id)
 
         for chunk in chunks:
+            effective_min_overlap = (
+                1 if chunk.score >= self.high_confidence_chunk_score else self.min_overlap
+            )
             for sentence in _split_sentences(chunk.text):
                 s_tokens = _tokens(sentence)
                 if not s_tokens:
                     continue
                 overlap = len(q_tokens & s_tokens)
-                if overlap < self.min_overlap:
+                if overlap < effective_min_overlap:
                     continue
                 # Weight by retrieval score too, so higher-ranked chunks win ties.
                 score = overlap + chunk.score

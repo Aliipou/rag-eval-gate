@@ -8,6 +8,7 @@ dist/
 build/
 *.egg-info/
 .pytest_cache/
+.pytest_tmp/
 .coverage
 bin/
 obj/

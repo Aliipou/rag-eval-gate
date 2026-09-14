@@ -1,0 +1,2743 @@
+{
+  "q001": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s6",
+        "text": "Everyone is equal before the law."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Is everyone equal before the law in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s6",
+        "document_id": "const-731-1999",
+        "score": 0.1779
+      },
+      {
+        "chunk_id": "const-731-1999-s2",
+        "document_id": "const-731-1999",
+        "score": 0.0938
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0938
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0857
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0808
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0801
+      },
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "document_id": "emp-guide-tem",
+        "score": 0.071
+      },
+      {
+        "chunk_id": "const-731-1999-s8",
+        "document_id": "const-731-1999",
+        "score": 0.0623
+      }
+    ]
+  },
+  "q002": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s3",
+        "text": "Legislative powers are exercised by Parliament, which also decides on the central government finances."
+      },
+      {
+        "chunk_id": "const-731-1999-s99",
+        "text": "The highest judicial powers are exercised in civil and criminal matters by the Supreme Court and in administrative judicial matters by the Supreme Administrative Court."
+      },
+      {
+        "chunk_id": "const-731-1999-s3",
+        "text": "Governmental powers are exercised by the President of the Republic and the Government, the members of which shall enjoy the confidence of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s3",
+        "text": "Judicial powers are exercised by independent courts, with the Supreme Court and the Supreme Administrative Court as the highest instances."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who exercises legislative power in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s70",
+        "document_id": "const-731-1999",
+        "score": 0.1831
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0782
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0715
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0674
+      },
+      {
+        "chunk_id": "const-731-1999-s67",
+        "document_id": "const-731-1999",
+        "score": 0.0595
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0571
+      },
+      {
+        "chunk_id": "const-731-1999-s99",
+        "document_id": "const-731-1999",
+        "score": 0.0426
+      },
+      {
+        "chunk_id": "const-731-1999-s3",
+        "document_id": "const-731-1999",
+        "score": 0.0406
+      }
+    ]
+  },
+  "q003": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "text": "Finland is a sovereign republic."
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "text": "When the President of the Republic assumes office, they shall make the following solemn affirmation before Parliament: \"I, – –, elected by the people of Finland as the President of the Republic, hereby affirm that in my presidential duties I shall sincerely and conscientiously observe the Constitution and the laws of the Republic, and to the best of my ability promote the wellbeing of the people of Finland.\""
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "text": "The President of the Republic directs the foreign policy of Finland in cooperation with the Government."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Is Finland a sovereign republic?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.2835
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0819
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0642
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0605
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0512
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0471
+      },
+      {
+        "chunk_id": "const-731-1999-s57",
+        "document_id": "const-731-1999",
+        "score": 0.0316
+      },
+      {
+        "chunk_id": "const-731-1999-s113",
+        "document_id": "const-731-1999",
+        "score": 0.0266
+      }
+    ]
+  },
+  "q004": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s5",
+        "text": "A child acquires Finnish citizenship by birth and on the basis of the citizenship of the parents, as further specified by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "text": "Section 5 (Finnish citizenship)."
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "text": "A person may only be released from Finnish citizenship on the grounds provided by law and subject to the condition that the person holds or will be granted the citizenship of another state."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "However, it may be provided by an Act of Parliament that a Finnish citizen may, due to a criminal offence, for the purposes of judicial proceedings or to enforce a decision concerning the custody or care of a child, be extradited or transferred to a country in which their human rights and protection under the law are guaranteed."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "How does a child acquire Finnish citizenship?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.6221
+      },
+      {
+        "chunk_id": "emp-guide-tem-p17",
+        "document_id": "emp-guide-tem",
+        "score": 0.18
+      },
+      {
+        "chunk_id": "emp-guide-tem-p16",
+        "document_id": "emp-guide-tem",
+        "score": 0.1763
+      },
+      {
+        "chunk_id": "emp-guide-tem-p18",
+        "document_id": "emp-guide-tem",
+        "score": 0.1591
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0936
+      },
+      {
+        "chunk_id": "emp-guide-tem-p15",
+        "document_id": "emp-guide-tem",
+        "score": 0.0832
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0724
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0652
+      }
+    ]
+  },
+  "q005": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s7",
+        "text": "Everyone has the right to life and to liberty, integrity and security of person."
+      },
+      {
+        "chunk_id": "const-731-1999-s7",
+        "text": "Section 7 (Right to life and to liberty and integrity of person)."
+      },
+      {
+        "chunk_id": "const-731-1999-s10",
+        "text": "Everyone's right to respect for private life, honour and home are safeguarded."
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "text": "The right of everyone to use their own language, either Finnish or Swedish, in their own matter before courts and other authorities and to receive official documents in that language shall be safeguarded by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Does everyone have the right to life and liberty under the Finnish constitution?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s7",
+        "document_id": "const-731-1999",
+        "score": 0.4202
+      },
+      {
+        "chunk_id": "const-731-1999-s10",
+        "document_id": "const-731-1999",
+        "score": 0.0833
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0801
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0705
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.0661
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.0649
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0619
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.059
+      }
+    ]
+  },
+  "q006": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s8",
+        "text": "Section 8 (Principle of legality in criminal law)."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "However, it may be provided by an Act of Parliament that a Finnish citizen may, due to a criminal offence, for the purposes of judicial proceedings or to enforce a decision concerning the custody or care of a child, be extradited or transferred to a country in which their human rights and protection under the law are guaranteed."
+      },
+      {
+        "chunk_id": "const-731-1999-s8",
+        "text": "No one shall be held guilty of a criminal offence or be sentenced to a punishment on account of an act that did not constitute a criminal offence under law at the time when it was committed."
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "text": "A person may only be released from Finnish citizenship on the grounds provided by law and subject to the condition that the person holds or will be granted the citizenship of another state."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the principle of legality in Finnish criminal law?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s8",
+        "document_id": "const-731-1999",
+        "score": 0.3337
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0797
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0657
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0634
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0616
+      },
+      {
+        "chunk_id": "const-731-1999-s110",
+        "document_id": "const-731-1999",
+        "score": 0.0535
+      },
+      {
+        "chunk_id": "const-731-1999-s2",
+        "document_id": "const-731-1999",
+        "score": 0.0455
+      },
+      {
+        "chunk_id": "const-731-1999-s115",
+        "document_id": "const-731-1999",
+        "score": 0.0418
+      }
+    ]
+  },
+  "q007": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "Finnish citizens and aliens legally resident in Finland have the right to freely move in the country and choose their place of residence."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "However, it may be provided by an Act of Parliament that a Finnish citizen may, due to a criminal offence, for the purposes of judicial proceedings or to enforce a decision concerning the custody or care of a child, be extradited or transferred to a country in which their human rights and protection under the law are guaranteed."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "Everyone has the right to leave the country."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "Finnish citizens shall not be prevented from entering Finland, be deported from Finland or, against their will, be extradited or transferred from Finland to another country."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Do Finnish citizens have freedom of movement and the right to leave the country?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.3513
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "document_id": "const-731-1999",
+        "score": 0.1192
+      },
+      {
+        "chunk_id": "emp-guide-tem-p17",
+        "document_id": "emp-guide-tem",
+        "score": 0.1014
+      },
+      {
+        "chunk_id": "const-731-1999-s53",
+        "document_id": "const-731-1999",
+        "score": 0.1007
+      },
+      {
+        "chunk_id": "const-731-1999-s25",
+        "document_id": "const-731-1999",
+        "score": 0.0848
+      },
+      {
+        "chunk_id": "const-731-1999-s60",
+        "document_id": "const-731-1999",
+        "score": 0.0798
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "document_id": "const-731-1999",
+        "score": 0.079
+      },
+      {
+        "chunk_id": "emp-guide-tem-p18",
+        "document_id": "emp-guide-tem",
+        "score": 0.0776
+      }
+    ]
+  },
+  "q008": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s11",
+        "text": "Section 11 (Freedom of religion and conscience)."
+      },
+      {
+        "chunk_id": "const-731-1999-s11",
+        "text": "Everyone has the freedom of religion and conscience."
+      },
+      {
+        "chunk_id": "const-731-1999-s11",
+        "text": "Freedom of religion and conscience entails the right to profess and practice a religion, the right to express one's belief and the right to be or not to be a member of a religious community."
+      },
+      {
+        "chunk_id": "const-731-1999-s11",
+        "text": "No one is under the obligation to participate in the practice of a religion against their conscience."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Does the constitution guarantee freedom of religion and conscience?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s11",
+        "document_id": "const-731-1999",
+        "score": 0.6744
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "document_id": "const-731-1999",
+        "score": 0.1258
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "document_id": "const-731-1999",
+        "score": 0.0724
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0659
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0617
+      },
+      {
+        "chunk_id": "const-731-1999-s127",
+        "document_id": "const-731-1999",
+        "score": 0.0519
+      },
+      {
+        "chunk_id": "const-731-1999-s130",
+        "document_id": "const-731-1999",
+        "score": 0.0459
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0449
+      }
+    ]
+  },
+  "q009": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s12",
+        "text": "Everyone has the freedom of expression."
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "text": "Section 12 (Freedom of expression and right of access to information)."
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "text": "Freedom of expression entails the right to express, impart and receive information, opinions and other communications without prior prevention by anyone."
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "text": "Further provisions on the exercise of the freedom of expression are laid down by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Does everyone have freedom of expression under the Finnish constitution?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s12",
+        "document_id": "const-731-1999",
+        "score": 0.4764
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "document_id": "const-731-1999",
+        "score": 0.1663
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0926
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0871
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0815
+      },
+      {
+        "chunk_id": "const-731-1999-s11",
+        "document_id": "const-731-1999",
+        "score": 0.0799
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0716
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0631
+      }
+    ]
+  },
+  "q010": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s13",
+        "text": "Section 13 (Freedom of assembly and freedom of association)."
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "text": "Further provisions on the exercise of the freedom of assembly and the freedom of association are laid down by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "text": "Everyone has the freedom of association."
+      },
+      {
+        "chunk_id": "const-731-1999-s13",
+        "text": "Freedom of association entails the right, without a permit, to form an association, to be or not to be a member of an association and to participate in the activities of an association."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Is freedom of assembly and freedom of association protected in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s13",
+        "document_id": "const-731-1999",
+        "score": 0.6685
+      },
+      {
+        "chunk_id": "const-731-1999-s12",
+        "document_id": "const-731-1999",
+        "score": 0.1225
+      },
+      {
+        "chunk_id": "const-731-1999-s11",
+        "document_id": "const-731-1999",
+        "score": 0.1022
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.088
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0582
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0429
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0404
+      },
+      {
+        "chunk_id": "const-731-1999-s18",
+        "document_id": "const-731-1999",
+        "score": 0.0402
+      }
+    ]
+  },
+  "q011": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s15",
+        "text": "Section 15 (Protection of property)."
+      },
+      {
+        "chunk_id": "const-731-1999-s15",
+        "text": "The property of everyone is safeguarded."
+      },
+      {
+        "chunk_id": "const-731-1999-s15",
+        "text": "Provisions on the expropriation of property, for a general interest and against full compensation, are laid down by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Is property protected under the Finnish constitution?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s15",
+        "document_id": "const-731-1999",
+        "score": 0.3505
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.1085
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0955
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0839
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0739
+      },
+      {
+        "chunk_id": "const-731-1999-s130",
+        "document_id": "const-731-1999",
+        "score": 0.0711
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0644
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.0617
+      }
+    ]
+  },
+  "q012": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What are the national languages of Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.1479
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.1081
+      },
+      {
+        "chunk_id": "const-731-1999-s127",
+        "document_id": "const-731-1999",
+        "score": 0.0838
+      },
+      {
+        "chunk_id": "const-731-1999-s90",
+        "document_id": "const-731-1999",
+        "score": 0.0786
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0704
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0696
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0653
+      },
+      {
+        "chunk_id": "const-731-1999-s104",
+        "document_id": "const-731-1999",
+        "score": 0.0648
+      }
+    ]
+  },
+  "q013": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s18",
+        "text": "Section 18 (Right to work and freedom to conduct a business)."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p13",
+        "text": "The purpose of an agreement on non-competition, even for a fixed period of time after the termination of an employment relationship, is to protect business and trade information of the employer that is real and justifiable and is significant for business but cannot be protected by having it granted or assigned patent or utility model rights."
+      },
+      {
+        "chunk_id": "const-731-1999-s18",
+        "text": "Everyone has the right, under the law, to earn their livelihood by the employment, occupation or business of their choice."
+      },
+      {
+        "chunk_id": "const-731-1999-s18",
+        "text": "The public authorities shall promote employment and seek to safeguard the right of everyone to work."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Does the constitution protect the right to work and to conduct a business?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s18",
+        "document_id": "const-731-1999",
+        "score": 0.3059
+      },
+      {
+        "chunk_id": "emp-guide-tem-p13",
+        "document_id": "emp-guide-tem",
+        "score": 0.1049
+      },
+      {
+        "chunk_id": "const-731-1999-s31",
+        "document_id": "const-731-1999",
+        "score": 0.0819
+      },
+      {
+        "chunk_id": "emp-guide-tem-p22",
+        "document_id": "emp-guide-tem",
+        "score": 0.0694
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0682
+      },
+      {
+        "chunk_id": "emp-guide-tem-p7",
+        "document_id": "emp-guide-tem",
+        "score": 0.0664
+      },
+      {
+        "chunk_id": "emp-guide-tem-p28",
+        "document_id": "emp-guide-tem",
+        "score": 0.0651
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.0565
+      }
+    ]
+  },
+  "q014": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s19",
+        "text": "Section 19 (Right to social security)."
+      },
+      {
+        "chunk_id": "const-731-1999-s19",
+        "text": "Anyone who cannot obtain the security required for a life of dignity has the right to indispensable subsistence and care."
+      },
+      {
+        "chunk_id": "const-731-1999-s19",
+        "text": "The right of everyone to basic subsistence during unemployment, illness, incapacity for work and old age, and upon the birth of a child and loss of a provider shall be guaranteed by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s19",
+        "text": "The public authorities shall safeguard, as further specified by an Act of Parliament, adequate health and social services for everyone and promote the health of the population."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Does everyone have a right to social security in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s19",
+        "document_id": "const-731-1999",
+        "score": 0.2226
+      },
+      {
+        "chunk_id": "const-731-1999-s10",
+        "document_id": "const-731-1999",
+        "score": 0.0817
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0721
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0678
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0668
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.062
+      },
+      {
+        "chunk_id": "const-731-1999-s36",
+        "document_id": "const-731-1999",
+        "score": 0.0491
+      },
+      {
+        "chunk_id": "const-731-1999-s47",
+        "document_id": "const-731-1999",
+        "score": 0.0459
+      }
+    ]
+  },
+  "q015": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s24",
+        "text": "Section 24 (Composition and electoral term of Parliament)."
+      },
+      {
+        "chunk_id": "const-731-1999-s24",
+        "text": "It consists of two hundred Members of Parliament who are elected for a term of four years at a time."
+      },
+      {
+        "chunk_id": "const-731-1999-s37",
+        "text": "The committees and other parliamentary bodies are appointed during the first parliamentary session of an electoral term for the duration of that term, unless otherwise provided in this Constitution, Parliament's Rules of Procedure or the rules of procedure adopted by Parliament for a given parliamentary body."
+      },
+      {
+        "chunk_id": "const-731-1999-s37",
+        "text": "However, Parliament may, on the proposal of the Speaker's Council, decide to reappoint a body during the electoral term."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "How many Members of Parliament are there in Finland and what is their electoral term?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s24",
+        "document_id": "const-731-1999",
+        "score": 0.3136
+      },
+      {
+        "chunk_id": "const-731-1999-s37",
+        "document_id": "const-731-1999",
+        "score": 0.2702
+      },
+      {
+        "chunk_id": "const-731-1999-s33",
+        "document_id": "const-731-1999",
+        "score": 0.2108
+      },
+      {
+        "chunk_id": "const-731-1999-s29",
+        "document_id": "const-731-1999",
+        "score": 0.1979
+      },
+      {
+        "chunk_id": "const-731-1999-s31",
+        "document_id": "const-731-1999",
+        "score": 0.193
+      },
+      {
+        "chunk_id": "const-731-1999-s35",
+        "document_id": "const-731-1999",
+        "score": 0.1637
+      },
+      {
+        "chunk_id": "const-731-1999-s25",
+        "document_id": "const-731-1999",
+        "score": 0.1418
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.1221
+      }
+    ]
+  },
+  "q016": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s56",
+        "text": "When the President of the Republic assumes office, they shall make the following solemn affirmation before Parliament: \"I, – –, elected by the people of Finland as the President of the Republic, hereby affirm that in my presidential duties I shall sincerely and conscientiously observe the Constitution and the laws of the Republic, and to the best of my ability promote the wellbeing of the people of Finland.\""
+      },
+      {
+        "chunk_id": "const-731-1999-s54",
+        "text": "The President of the Republic is elected by a direct vote for a term of six years."
+      },
+      {
+        "chunk_id": "const-731-1999-s64",
+        "text": "If a minister is elected President of the Republic or Speaker of Parliament, the person shall be considered to have resigned from the office of minister as of the day on which they were elected."
+      },
+      {
+        "chunk_id": "const-731-1999-s55",
+        "text": "The President of the Republic assumes office on the first day of the calendar month following their election."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "How is the President of the Republic of Finland elected?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.297
+      },
+      {
+        "chunk_id": "const-731-1999-s55",
+        "document_id": "const-731-1999",
+        "score": 0.2753
+      },
+      {
+        "chunk_id": "const-731-1999-s54",
+        "document_id": "const-731-1999",
+        "score": 0.2736
+      },
+      {
+        "chunk_id": "const-731-1999-s64",
+        "document_id": "const-731-1999",
+        "score": 0.2119
+      },
+      {
+        "chunk_id": "const-731-1999-s57",
+        "document_id": "const-731-1999",
+        "score": 0.2035
+      },
+      {
+        "chunk_id": "const-731-1999-s113",
+        "document_id": "const-731-1999",
+        "score": 0.1717
+      },
+      {
+        "chunk_id": "const-731-1999-s112",
+        "document_id": "const-731-1999",
+        "score": 0.1589
+      },
+      {
+        "chunk_id": "const-731-1999-s77",
+        "document_id": "const-731-1999",
+        "score": 0.1558
+      }
+    ]
+  },
+  "q017": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s65",
+        "text": "The Government is responsible for the duties separately specified in this Constitution and for the other governmental and administrative matters which the Government or a ministry shall decide under law or which have not been assigned to the competence of the President of the Republic or another authority."
+      },
+      {
+        "chunk_id": "const-731-1999-s99",
+        "text": "The highest judicial powers are exercised in civil and criminal matters by the Supreme Court and in administrative judicial matters by the Supreme Administrative Court."
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "text": "The Government is responsible for the national preparation of decisions to be made in the European Union and decides on Finland’s measures related to such decisions, unless a decision requires the approval of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who is responsible for governmental and administrative matters in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s65",
+        "document_id": "const-731-1999",
+        "score": 0.3217
+      },
+      {
+        "chunk_id": "const-731-1999-s99",
+        "document_id": "const-731-1999",
+        "score": 0.0874
+      },
+      {
+        "chunk_id": "const-731-1999-s67",
+        "document_id": "const-731-1999",
+        "score": 0.0776
+      },
+      {
+        "chunk_id": "const-731-1999-s3",
+        "document_id": "const-731-1999",
+        "score": 0.0771
+      },
+      {
+        "chunk_id": "const-731-1999-s98",
+        "document_id": "const-731-1999",
+        "score": 0.0664
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0639
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0611
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0584
+      }
+    ]
+  },
+  "q018": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s70",
+        "text": "A proposal for the enactment of an Act of Parliament comes before Parliament through a government proposal or a Member of Parliament’s legislative motion."
+      },
+      {
+        "chunk_id": "const-731-1999-s39",
+        "text": "(1112/2011) Members of Parliament may put forward: 1) legislative motions containing a proposal for the enactment of an Act of Parliament; 2) budgetary motions containing a proposal for an appropriation or for another decision to be included in the Budget or a supplementary budget; and 3) petitionary motions containing a proposal for the drafting of a bill or for taking another measure."
+      },
+      {
+        "chunk_id": "const-731-1999-s39",
+        "text": "A matter comes before Parliament through a government proposal or a Member of Parliament’s motion or in another manner provided in this Constitution or in Parliament's Rules of Procedure."
+      },
+      {
+        "chunk_id": "const-731-1999-s53",
+        "text": "A minimum of fifty thousand Finnish citizens entitled to vote have the right to submit an initiative to Parliament for the enactment of an Act of Parliament as provided by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "How does a proposal for the enactment of an Act of Parliament come before Parliament?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s70",
+        "document_id": "const-731-1999",
+        "score": 0.3713
+      },
+      {
+        "chunk_id": "const-731-1999-s39",
+        "document_id": "const-731-1999",
+        "score": 0.2669
+      },
+      {
+        "chunk_id": "const-731-1999-s53",
+        "document_id": "const-731-1999",
+        "score": 0.1761
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "document_id": "const-731-1999",
+        "score": 0.1363
+      },
+      {
+        "chunk_id": "const-731-1999-s71",
+        "document_id": "const-731-1999",
+        "score": 0.1277
+      },
+      {
+        "chunk_id": "const-731-1999-s58",
+        "document_id": "const-731-1999",
+        "score": 0.1197
+      },
+      {
+        "chunk_id": "const-731-1999-s80",
+        "document_id": "const-731-1999",
+        "score": 0.1151
+      },
+      {
+        "chunk_id": "const-731-1999-s36",
+        "document_id": "const-731-1999",
+        "score": 0.1115
+      }
+    ]
+  },
+  "q019": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s79",
+        "text": "Acts of Parliament are enacted and published in Finnish and Swedish."
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "text": "If an Act of Parliament has been enacted in accordance with the procedure for constitutional enactment, this shall be indicated in the Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "text": "If an Act of Parliament has not been published on the date of entry into force specified by law at the latest, it enters into force on the date on which it is published."
+      },
+      {
+        "chunk_id": "const-731-1999-s131",
+        "text": "This Constitution repeals the following constitutional acts, as amended: 1) The Constitution Act of Finland of 17 July 1919; 2) The Parliament Act of 13 January 1928; 3) The Act on the High Court of Impeachment (273/1922) of 25 November 1922; and 4) The Act on the Right of Parliament to Inspect the Lawfulness of the Official Acts of the Members of the Council of State, the Chancellor of Justice and the Parliamentary Ombudsman (274/1922) of 25 November 1922."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "In what languages are Acts of Parliament enacted and published in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s79",
+        "document_id": "const-731-1999",
+        "score": 0.2893
+      },
+      {
+        "chunk_id": "const-731-1999-s131",
+        "document_id": "const-731-1999",
+        "score": 0.0652
+      },
+      {
+        "chunk_id": "const-731-1999-s75",
+        "document_id": "const-731-1999",
+        "score": 0.0606
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0549
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0546
+      },
+      {
+        "chunk_id": "const-731-1999-s52",
+        "document_id": "const-731-1999",
+        "score": 0.054
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0534
+      },
+      {
+        "chunk_id": "const-731-1999-s95",
+        "document_id": "const-731-1999",
+        "score": 0.0521
+      }
+    ]
+  },
+  "q020": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s81",
+        "text": "State tax is governed by an Act of Parliament that shall contain provisions on the grounds for tax liability and the amount of the tax and on the protection under the law of persons and entities liable to taxation."
+      },
+      {
+        "chunk_id": "const-731-1999-s92",
+        "text": "Provisions on the competence and procedure for the exercise of the State's shareholder authority in companies in which the State has a controlling interest are laid down by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s92",
+        "text": "Provisions on the necessity of authorisation of Parliament for the acquisition or relinquishment of effective control by the State in a company are likewise laid down by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s123",
+        "text": "The universities are self-governing as further specified by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What must an Act of Parliament governing state tax contain?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s81",
+        "document_id": "const-731-1999",
+        "score": 0.3561
+      },
+      {
+        "chunk_id": "const-731-1999-s92",
+        "document_id": "const-731-1999",
+        "score": 0.1506
+      },
+      {
+        "chunk_id": "const-731-1999-s123",
+        "document_id": "const-731-1999",
+        "score": 0.1372
+      },
+      {
+        "chunk_id": "const-731-1999-s119",
+        "document_id": "const-731-1999",
+        "score": 0.1301
+      },
+      {
+        "chunk_id": "const-731-1999-s121",
+        "document_id": "const-731-1999",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "const-731-1999-s53",
+        "document_id": "const-731-1999",
+        "score": 0.1085
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "document_id": "const-731-1999",
+        "score": 0.0828
+      },
+      {
+        "chunk_id": "const-731-1999-s80",
+        "document_id": "const-731-1999",
+        "score": 0.0755
+      }
+    ]
+  },
+  "q021": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s91",
+        "text": "Parliament elects the members of the Parliamentary Supervisory Council to supervise the operations of the Bank of Finland."
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "text": "The relevant parliamentary committee and the members of the Parliamentary Supervisory Council have the right to receive the information they need for the supervision of the operations of the Bank of Finland."
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "text": "Section 91 (Bank of Finland)."
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "text": "The Bank of Finland operates under the guarantee and care of Parliament as provided by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who supervises the operations of the Bank of Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.5688
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.061
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0557
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0445
+      },
+      {
+        "chunk_id": "const-731-1999-s36",
+        "document_id": "const-731-1999",
+        "score": 0.0424
+      },
+      {
+        "chunk_id": "const-731-1999-s90",
+        "document_id": "const-731-1999",
+        "score": 0.0376
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0316
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0306
+      }
+    ]
+  },
+  "q022": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s93",
+        "text": "The President of the Republic directs the foreign policy of Finland in cooperation with the Government."
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "text": "The communication of important foreign policy positions to foreign states and international organisations is the responsibility of the minister whose remit includes international relations."
+      },
+      {
+        "chunk_id": "const-731-1999-s96",
+        "text": "However, a proposal pertaining to foreign and security policy is considered by the Foreign Affairs Committee."
+      },
+      {
+        "chunk_id": "const-731-1999-s97",
+        "text": "The Foreign Affairs Committee of Parliament shall, when it so requests and when otherwise needed, receive from the Government a report on foreign and security policy matters."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who directs the foreign policy of Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.3229
+      },
+      {
+        "chunk_id": "const-731-1999-s96",
+        "document_id": "const-731-1999",
+        "score": 0.0895
+      },
+      {
+        "chunk_id": "const-731-1999-s97",
+        "document_id": "const-731-1999",
+        "score": 0.0744
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0564
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0515
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0486
+      },
+      {
+        "chunk_id": "const-731-1999-s66",
+        "document_id": "const-731-1999",
+        "score": 0.0417
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0411
+      }
+    ]
+  },
+  "q023": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s98",
+        "text": "General courts are the Supreme Court, the courts of appeal and the district courts."
+      },
+      {
+        "chunk_id": "const-731-1999-s98",
+        "text": "General administrative courts are the Supreme Administrative Court and the regional administrative courts."
+      },
+      {
+        "chunk_id": "const-731-1999-s98",
+        "text": "Section 98 (Courts)."
+      },
+      {
+        "chunk_id": "const-731-1999-s98",
+        "text": "Provisions on special courts that exercise judicial powers in separately defined fields are laid down by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What are the general courts of Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s98",
+        "document_id": "const-731-1999",
+        "score": 0.4246
+      },
+      {
+        "chunk_id": "const-731-1999-s99",
+        "document_id": "const-731-1999",
+        "score": 0.0941
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0917
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0838
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.079
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0669
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0475
+      },
+      {
+        "chunk_id": "const-731-1999-s100",
+        "document_id": "const-731-1999",
+        "score": 0.0463
+      }
+    ]
+  },
+  "q024": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s102",
+        "text": "The President of the Republic appoints permanent judges in accordance with the procedure laid down by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s102",
+        "text": "Section 102 (Appointment of judges)."
+      },
+      {
+        "chunk_id": "const-731-1999-s102",
+        "text": "Provisions on the appointment of other judges are laid down by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who appoints permanent judges in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s102",
+        "document_id": "const-731-1999",
+        "score": 0.4939
+      },
+      {
+        "chunk_id": "const-731-1999-s103",
+        "document_id": "const-731-1999",
+        "score": 0.0954
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.063
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0576
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0543
+      },
+      {
+        "chunk_id": "const-731-1999-s125",
+        "document_id": "const-731-1999",
+        "score": 0.0495
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.046
+      },
+      {
+        "chunk_id": "emp-guide-tem-p9",
+        "document_id": "emp-guide-tem",
+        "score": 0.0427
+      }
+    ]
+  },
+  "q025": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s106",
+        "text": "If, in a matter being considered by a court, the application of a provision of an Act of Parliament would be in manifest conflict with the Constitution, the court shall give primacy to the provision of the Constitution."
+      },
+      {
+        "chunk_id": "const-731-1999-s107",
+        "text": "If a provision of a decree or another statute that is subordinate to an Act of Parliament is in conflict with the Constitution or another Act of Parliament, it shall not be applied by a court or any other authority."
+      },
+      {
+        "chunk_id": "const-731-1999-s80",
+        "text": "However, provisions on the grounds for the rights and obligations of private individuals and on matters that under the Constitution shall otherwise be regulated by an Act of Parliament shall be laid down by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s130",
+        "text": "The provisions required for the implementation of the Constitution are laid down by a special Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What happens if a provision of an Act of Parliament manifestly conflicts with the constitution?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.3058
+      },
+      {
+        "chunk_id": "const-731-1999-s107",
+        "document_id": "const-731-1999",
+        "score": 0.1368
+      },
+      {
+        "chunk_id": "const-731-1999-s80",
+        "document_id": "const-731-1999",
+        "score": 0.1338
+      },
+      {
+        "chunk_id": "const-731-1999-s36",
+        "document_id": "const-731-1999",
+        "score": 0.0989
+      },
+      {
+        "chunk_id": "const-731-1999-s130",
+        "document_id": "const-731-1999",
+        "score": 0.0976
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "document_id": "const-731-1999",
+        "score": 0.0956
+      },
+      {
+        "chunk_id": "const-731-1999-s57",
+        "document_id": "const-731-1999",
+        "score": 0.0813
+      },
+      {
+        "chunk_id": "const-731-1999-s53",
+        "document_id": "const-731-1999",
+        "score": 0.0801
+      }
+    ]
+  },
+  "q026": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s130",
+        "text": "This Constitution enters into force on 1 March 2000."
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "text": "However, Parliament approves Finland’s international obligations and withdrawal from them and decides on the bringing into force of international obligations to the extent provided in this Constitution."
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "text": "The constitution of Finland is established in this constitutional act."
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "text": "An Act of Parliament which has been approved or which enters into force without approval shall be signed by the President of the Republic and countersigned by the competent minister."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "When did the Constitution of Finland enter into force?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.2442
+      },
+      {
+        "chunk_id": "const-731-1999-s130",
+        "document_id": "const-731-1999",
+        "score": 0.1642
+      },
+      {
+        "chunk_id": "const-731-1999-s79",
+        "document_id": "const-731-1999",
+        "score": 0.1364
+      },
+      {
+        "chunk_id": "const-731-1999-s95",
+        "document_id": "const-731-1999",
+        "score": 0.1359
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0808
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.077
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0748
+      },
+      {
+        "chunk_id": "const-731-1999-s8",
+        "document_id": "const-731-1999",
+        "score": 0.0651
+      }
+    ]
+  },
+  "q027": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who is included in the Government of Finland according to the constitution?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.1341
+      },
+      {
+        "chunk_id": "const-731-1999-s84",
+        "document_id": "const-731-1999",
+        "score": 0.1245
+      },
+      {
+        "chunk_id": "const-731-1999-s121",
+        "document_id": "const-731-1999",
+        "score": 0.0959
+      },
+      {
+        "chunk_id": "const-731-1999-s106",
+        "document_id": "const-731-1999",
+        "score": 0.0853
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0799
+      },
+      {
+        "chunk_id": "const-731-1999-s65",
+        "document_id": "const-731-1999",
+        "score": 0.0795
+      },
+      {
+        "chunk_id": "const-731-1999-s58",
+        "document_id": "const-731-1999",
+        "score": 0.0734
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0701
+      }
+    ]
+  },
+  "q028": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s127",
+        "text": "Every Finnish citizen is obligated to participate or assist in national defence as provided by law."
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "text": "Every Finnish citizen who has reached the age of 18 years has the right to vote in national elections and referendums."
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "text": "Every Finnish citizen and every citizen of the European Union resident in Finland, having reached the age of 18 years, has the right to vote in elections to the European Parliament as provided by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "text": "(1112/2011) Every Finnish citizen and every alien permanently resident in Finland, having reached the age of 18 years, has the right to vote in municipal elections and municipal referendums as provided by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Is every Finnish citizen obligated to participate in national defence?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s127",
+        "document_id": "const-731-1999",
+        "score": 0.5864
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.2087
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.1922
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.1168
+      },
+      {
+        "chunk_id": "const-731-1999-s129",
+        "document_id": "const-731-1999",
+        "score": 0.082
+      },
+      {
+        "chunk_id": "const-731-1999-s90",
+        "document_id": "const-731-1999",
+        "score": 0.0559
+      },
+      {
+        "chunk_id": "const-731-1999-s32",
+        "document_id": "const-731-1999",
+        "score": 0.0511
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0489
+      }
+    ]
+  },
+  "q029": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "text": "Trial Period Purpose The purpose of a trial period is to give both parties to the employment contract a chance to see whether the contract meets all the preconditions set for it."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "text": "If the employer or the employee decides that the employment contract does not meet his/her expectations, the contract may be cancelled on the basis of the trial period."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "text": "Agreement The trial period has to be agreed on specifically in an employment contract or a collective agreement."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "text": "The trial period provision of a collective agreement can be applied to an individual employment relationship only if the employer informs the employee of the application of this provision at the time the contract is made."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the purpose of a trial period in a Finnish employment contract?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "document_id": "emp-guide-tem",
+        "score": 0.5934
+      },
+      {
+        "chunk_id": "emp-guide-tem-p24",
+        "document_id": "emp-guide-tem",
+        "score": 0.2718
+      },
+      {
+        "chunk_id": "emp-guide-tem-p4",
+        "document_id": "emp-guide-tem",
+        "score": 0.2453
+      },
+      {
+        "chunk_id": "emp-guide-tem-p2",
+        "document_id": "emp-guide-tem",
+        "score": 0.2223
+      },
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "document_id": "emp-guide-tem",
+        "score": 0.1994
+      },
+      {
+        "chunk_id": "emp-guide-tem-p26",
+        "document_id": "emp-guide-tem",
+        "score": 0.1742
+      },
+      {
+        "chunk_id": "emp-guide-tem-p3",
+        "document_id": "emp-guide-tem",
+        "score": 0.1706
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.163
+      }
+    ]
+  },
+  "q030": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "text": "Equal Treatment and the Prohibition of Discrimination Prohibited Grounds for Discrimination An employer may not discriminate against an employee, unless there is a justified, lawful reason."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "text": "Prohibited discrimination under the Employment Contracts Act occurs when an employer, in making a decision concerning employees, knowingly puts an employee in a different position from other employees on prohibited discriminatory grounds."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "text": "Existence of Grounds for Discrimination If an employee is of the opinion that an employer has violated the prohibition of discrimination or acted contrary to the requirement of equal treatment, the employee must present probable evidence or reasons that the employer has discriminated against him/her."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "text": "Prohibited grounds for discrimination include: age, health and disability, national or ethnic origin; race, colour or social origin, nationality, sexual preference, language, religion, opinion or conviction, family ties, trade union activity and political activity or some other comparable matter."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What are prohibited grounds for discrimination against an employee in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p8",
+        "document_id": "emp-guide-tem",
+        "score": 0.3708
+      },
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "document_id": "emp-guide-tem",
+        "score": 0.1091
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.1019
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.1014
+      },
+      {
+        "chunk_id": "emp-guide-tem-p11",
+        "document_id": "emp-guide-tem",
+        "score": 0.0738
+      },
+      {
+        "chunk_id": "emp-guide-tem-p22",
+        "document_id": "emp-guide-tem",
+        "score": 0.0719
+      },
+      {
+        "chunk_id": "emp-guide-tem-p25",
+        "document_id": "emp-guide-tem",
+        "score": 0.0714
+      },
+      {
+        "chunk_id": "emp-guide-tem-p24",
+        "document_id": "emp-guide-tem",
+        "score": 0.0709
+      }
+    ]
+  },
+  "q031": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p11",
+        "text": "Part-time absence due to illness After the waiting period for national sickness allowance, the employee can do his or her own work on a part-time basis and, in addition to pay, is entitled to receive a partial sickness allowance paid by Kela – The Social Insurance Institution of Finland."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p10",
+        "text": "Pay Period and Pay Day Pay is normally paid on the last day of the pay period."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p10",
+        "text": "It is also possible to agree in an employment contract or a collective agreement that the employee’s pay is paid on some other day."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p10",
+        "text": "Pay shall be paid to the employee’s bank account."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "How must an employee's pay normally be paid in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p10",
+        "document_id": "emp-guide-tem",
+        "score": 0.2971
+      },
+      {
+        "chunk_id": "emp-guide-tem-p11",
+        "document_id": "emp-guide-tem",
+        "score": 0.1634
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.1139
+      },
+      {
+        "chunk_id": "emp-guide-tem-p14",
+        "document_id": "emp-guide-tem",
+        "score": 0.0987
+      },
+      {
+        "chunk_id": "emp-guide-tem-p12",
+        "document_id": "emp-guide-tem",
+        "score": 0.0832
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.0814
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "document_id": "emp-guide-tem",
+        "score": 0.0765
+      },
+      {
+        "chunk_id": "emp-guide-tem-p26",
+        "document_id": "emp-guide-tem",
+        "score": 0.0729
+      }
+    ]
+  },
+  "q032": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "text": "Under the Employee Pensions Act, employees have the opportunity to choose their retirement age flexibly between 63 and 68 years of age."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "text": "If an employer wishes to terminate an employment relationship before the employee reaches retirement age, grounds for giving notice or cancellation must exist as laid down in the Employment Contracts Act."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "text": "Obligation to Pay the Employee During Leave Under the Employment Contracts Act, employers are not obliged to pay employees during maternity, paternity, parental or child-care leave, or for absence for a compelling family reason."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "The Employment Contracts Act also includes provisions on retirement age based on pensionable age."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Can Finnish employees choose their retirement age flexibly under the Employee Pensions Act?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "document_id": "emp-guide-tem",
+        "score": 0.1884
+      },
+      {
+        "chunk_id": "emp-guide-tem-p12",
+        "document_id": "emp-guide-tem",
+        "score": 0.0753
+      },
+      {
+        "chunk_id": "emp-guide-tem-p7",
+        "document_id": "emp-guide-tem",
+        "score": 0.0752
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.0748
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "document_id": "emp-guide-tem",
+        "score": 0.0738
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.063
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.0609
+      },
+      {
+        "chunk_id": "emp-guide-tem-p11",
+        "document_id": "emp-guide-tem",
+        "score": 0.0584
+      }
+    ]
+  },
+  "q033": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "Grounds for Lay-Off If the work offered by the employer has, for financial or production-related reasons or because of the rearrangement of business, diminished essentially and permanently, and the employer cannot offer the employee other work or training, the employee can be laid off until further notice."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "If the employer is able to offer the employee other work for this period, there are no grounds for a lay-off."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "The employer is entitled to lay off an employee representative only on the grounds on which the employment contract of the representative can be terminated."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "If the employer and the employee make an agreement regarding the lay-off, the employer is entitled to lay the employee off only for a fixed term, and only when the lay-off is necessary because of the business or the financial situation of the employer."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "On what grounds can an employer lay off an employee in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "document_id": "emp-guide-tem",
+        "score": 0.3616
+      },
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.317
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.1578
+      },
+      {
+        "chunk_id": "emp-guide-tem-p22",
+        "document_id": "emp-guide-tem",
+        "score": 0.1482
+      },
+      {
+        "chunk_id": "emp-guide-tem-p26",
+        "document_id": "emp-guide-tem",
+        "score": 0.1444
+      },
+      {
+        "chunk_id": "emp-guide-tem-p7",
+        "document_id": "emp-guide-tem",
+        "score": 0.1409
+      },
+      {
+        "chunk_id": "emp-guide-tem-p25",
+        "document_id": "emp-guide-tem",
+        "score": 0.1374
+      },
+      {
+        "chunk_id": "emp-guide-tem-p24",
+        "document_id": "emp-guide-tem",
+        "score": 0.1267
+      }
+    ]
+  },
+  "q034": {
+    "claims": [
+      {
+        "chunk_id": "emp-guide-tem-p24",
+        "text": "The following are the notice periods that must be observed by employees: Uninterrupted duration of the employment relationship Notice period 5 years or less 14 days More than 5 years 1 month The employment relationship is terminated at the end of the notice period."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "text": "The following are the general notice periods that must be observed by employers: Uninterrupted duration of the employment relationship Notice period 1 year or less 14 days More than 1 year but no more than 4 years 1 month More than 4 years but no more than 8 years 2 months More than 8 years but no more than 12 years 4 months More than 12 years 6 months"
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "If the employee wishes to terminate the employment contract during the last seven days of the lay-off, he/she must observe the notice period otherwise applicable to the employment relationship."
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "text": "An employee’s employment relationship ends automatically without notice or notice period at the end of the calendar month during which the employee becomes 68 years of age unless the employer and the employee agree on continuing the employment relationship."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What notice period must a Finnish employee observe when resigning after more than 5 years of employment?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p24",
+        "document_id": "emp-guide-tem",
+        "score": 0.3416
+      },
+      {
+        "chunk_id": "emp-guide-tem-p23",
+        "document_id": "emp-guide-tem",
+        "score": 0.3373
+      },
+      {
+        "chunk_id": "emp-guide-tem-p20",
+        "document_id": "emp-guide-tem",
+        "score": 0.3026
+      },
+      {
+        "chunk_id": "emp-guide-tem-p25",
+        "document_id": "emp-guide-tem",
+        "score": 0.2898
+      },
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "document_id": "emp-guide-tem",
+        "score": 0.2578
+      },
+      {
+        "chunk_id": "emp-guide-tem-p22",
+        "document_id": "emp-guide-tem",
+        "score": 0.2178
+      },
+      {
+        "chunk_id": "emp-guide-tem-p6",
+        "document_id": "emp-guide-tem",
+        "score": 0.2086
+      },
+      {
+        "chunk_id": "emp-guide-tem-p4",
+        "document_id": "emp-guide-tem",
+        "score": 0.1912
+      }
+    ]
+  },
+  "r001": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the current value-added tax (VAT) rate in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s81",
+        "document_id": "const-731-1999",
+        "score": 0.2164
+      },
+      {
+        "chunk_id": "const-731-1999-s121",
+        "document_id": "const-731-1999",
+        "score": 0.1135
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0923
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0844
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0795
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0673
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0478
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0464
+      }
+    ]
+  },
+  "r002": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the speed limit on Finnish motorways?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.1422
+      },
+      {
+        "chunk_id": "const-731-1999-s78",
+        "document_id": "const-731-1999",
+        "score": 0.1328
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.1099
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0968
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.0738
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.067
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.065
+      },
+      {
+        "chunk_id": "const-731-1999-s129",
+        "document_id": "const-731-1999",
+        "score": 0.0636
+      }
+    ]
+  },
+  "r003": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "How many public holidays are there in Finland each year?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s118",
+        "document_id": "const-731-1999",
+        "score": 0.1277
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0908
+      },
+      {
+        "chunk_id": "const-731-1999-s83",
+        "document_id": "const-731-1999",
+        "score": 0.0839
+      },
+      {
+        "chunk_id": "const-731-1999-s2",
+        "document_id": "const-731-1999",
+        "score": 0.0839
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.083
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0783
+      },
+      {
+        "chunk_id": "const-731-1999-s109",
+        "document_id": "const-731-1999",
+        "score": 0.0752
+      },
+      {
+        "chunk_id": "const-731-1999-s50",
+        "document_id": "const-731-1999",
+        "score": 0.071
+      }
+    ]
+  },
+  "r004": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the statutory minimum wage in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s25",
+        "document_id": "const-731-1999",
+        "score": 0.1081
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0691
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0631
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0595
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0504
+      },
+      {
+        "chunk_id": "emp-guide-tem-p29",
+        "document_id": "emp-guide-tem",
+        "score": 0.0423
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0358
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0347
+      }
+    ]
+  },
+  "r005": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the boiling point of water?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p19",
+        "document_id": "emp-guide-tem",
+        "score": 0.0398
+      },
+      {
+        "chunk_id": "emp-guide-tem-p13",
+        "document_id": "emp-guide-tem",
+        "score": 0.0179
+      }
+    ]
+  },
+  "r006": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the maximum penalty for theft under the Finnish Criminal Code?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s8",
+        "document_id": "const-731-1999",
+        "score": 0.14
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.1175
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.1169
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0909
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.08
+      },
+      {
+        "chunk_id": "emp-guide-tem-p14",
+        "document_id": "emp-guide-tem",
+        "score": 0.0655
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.061
+      },
+      {
+        "chunk_id": "const-731-1999-s105",
+        "document_id": "const-731-1999",
+        "score": 0.0605
+      }
+    ]
+  },
+  "r007": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the current population of Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.1167
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.1067
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.1006
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0851
+      },
+      {
+        "chunk_id": "const-731-1999-s19",
+        "document_id": "const-731-1999",
+        "score": 0.0806
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0605
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0586
+      },
+      {
+        "chunk_id": "const-731-1999-s22",
+        "document_id": "const-731-1999",
+        "score": 0.0371
+      }
+    ]
+  },
+  "r008": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the corporate income tax rate for Finnish companies?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s81",
+        "document_id": "const-731-1999",
+        "score": 0.1517
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0817
+      },
+      {
+        "chunk_id": "const-731-1999-s121",
+        "document_id": "const-731-1999",
+        "score": 0.0677
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0632
+      },
+      {
+        "chunk_id": "const-731-1999-s92",
+        "document_id": "const-731-1999",
+        "score": 0.0627
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0556
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.0424
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0385
+      }
+    ]
+  },
+  "r009": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the process for registering a limited liability company in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0839
+      },
+      {
+        "chunk_id": "const-731-1999-s92",
+        "document_id": "const-731-1999",
+        "score": 0.0813
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0767
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0723
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0612
+      },
+      {
+        "chunk_id": "emp-guide-tem-p29",
+        "document_id": "emp-guide-tem",
+        "score": 0.0495
+      },
+      {
+        "chunk_id": "emp-guide-tem-p26",
+        "document_id": "emp-guide-tem",
+        "score": 0.0484
+      },
+      {
+        "chunk_id": "const-731-1999-s73",
+        "document_id": "const-731-1999",
+        "score": 0.0444
+      }
+    ]
+  },
+  "r010": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the average monthly retirement pension amount in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.0902
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0824
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0777
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0658
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0468
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0453
+      },
+      {
+        "chunk_id": "emp-guide-tem-p21",
+        "document_id": "emp-guide-tem",
+        "score": 0.039
+      },
+      {
+        "chunk_id": "const-731-1999-s22",
+        "document_id": "const-731-1999",
+        "score": 0.0287
+      }
+    ]
+  },
+  "r011": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the process for filing for divorce in Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.1167
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.1067
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.1006
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.0851
+      },
+      {
+        "chunk_id": "const-731-1999-s93",
+        "document_id": "const-731-1999",
+        "score": 0.0605
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.0586
+      },
+      {
+        "chunk_id": "const-731-1999-s22",
+        "document_id": "const-731-1999",
+        "score": 0.0371
+      },
+      {
+        "chunk_id": "const-731-1999-s66",
+        "document_id": "const-731-1999",
+        "score": 0.0332
+      }
+    ]
+  },
+  "r012": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s54",
+        "text": "Registered political parties from whose list of candidates at least one Member of Parliament was elected to Parliament in the most recent parliamentary elections and groups consisting of a minimum of twenty thousand eligible voters have the right to nominate a candidate in a presidential election."
+      },
+      {
+        "chunk_id": "const-731-1999-s54",
+        "text": "If none of the candidates receives a majority of the votes cast, a new election shall be conducted between the two candidates who received the most votes."
+      },
+      {
+        "chunk_id": "const-731-1999-s54",
+        "text": "If only one presidential candidate has been nominated, the person is elected President without conducting an election."
+      },
+      {
+        "chunk_id": "const-731-1999-s54",
+        "text": "Further provisions on the timing of the presidential election and on the procedure to be followed in the election are laid down by an Act of Parliament."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "Who won the most recent Finnish presidential election?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s54",
+        "document_id": "const-731-1999",
+        "score": 0.3462
+      },
+      {
+        "chunk_id": "const-731-1999-s55",
+        "document_id": "const-731-1999",
+        "score": 0.1612
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0874
+      },
+      {
+        "chunk_id": "const-731-1999-s51",
+        "document_id": "const-731-1999",
+        "score": 0.0676
+      },
+      {
+        "chunk_id": "const-731-1999-s37",
+        "document_id": "const-731-1999",
+        "score": 0.065
+      },
+      {
+        "chunk_id": "const-731-1999-s5",
+        "document_id": "const-731-1999",
+        "score": 0.0595
+      },
+      {
+        "chunk_id": "const-731-1999-s17",
+        "document_id": "const-731-1999",
+        "score": 0.0454
+      },
+      {
+        "chunk_id": "const-731-1999-s56",
+        "document_id": "const-731-1999",
+        "score": 0.045
+      }
+    ]
+  },
+  "r013": {
+    "claims": [],
+    "model_id": "extractive-lexical-v1",
+    "question": "What is the exchange rate between the euro and the US dollar?",
+    "retrieved": [
+      {
+        "chunk_id": "emp-guide-tem-p31",
+        "document_id": "emp-guide-tem",
+        "score": 0.1054
+      }
+    ]
+  },
+  "r014": {
+    "claims": [
+      {
+        "chunk_id": "const-731-1999-s14",
+        "text": "Every Finnish citizen and every citizen of the European Union resident in Finland, having reached the age of 18 years, has the right to vote in elections to the European Parliament as provided by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s14",
+        "text": "(1112/2011) Every Finnish citizen and every alien permanently resident in Finland, having reached the age of 18 years, has the right to vote in municipal elections and municipal referendums as provided by an Act of Parliament."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "Finnish citizens and aliens legally resident in Finland have the right to freely move in the country and choose their place of residence."
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "text": "Finnish citizens shall not be prevented from entering Finland, be deported from Finland or, against their will, be extradited or transferred from Finland to another country."
+      }
+    ],
+    "model_id": "extractive-lexical-v1",
+    "question": "What are the visa requirements for a US citizen visiting Finland?",
+    "retrieved": [
+      {
+        "chunk_id": "const-731-1999-s14",
+        "document_id": "const-731-1999",
+        "score": 0.1697
+      },
+      {
+        "chunk_id": "const-731-1999-s9",
+        "document_id": "const-731-1999",
+        "score": 0.1122
+      },
+      {
+        "chunk_id": "const-731-1999-s1",
+        "document_id": "const-731-1999",
+        "score": 0.1042
+      },
+      {
+        "chunk_id": "const-731-1999-s4",
+        "document_id": "const-731-1999",
+        "score": 0.0953
+      },
+      {
+        "chunk_id": "const-731-1999-s91",
+        "document_id": "const-731-1999",
+        "score": 0.0898
+      },
+      {
+        "chunk_id": "const-731-1999-s127",
+        "document_id": "const-731-1999",
+        "score": 0.0723
+      },
+      {
+        "chunk_id": "const-731-1999-s124",
+        "document_id": "const-731-1999",
+        "score": 0.0693
+      },
+      {
+        "chunk_id": "const-731-1999-s128",
+        "document_id": "const-731-1999",
+        "score": 0.0575
+      }
+    ]
+  }
+}

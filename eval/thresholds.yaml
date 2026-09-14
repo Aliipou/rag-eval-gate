@@ -1,0 +1,18 @@
+# Minimum acceptable values for the three gated metrics (see
+# eval/metrics.py for exact definitions). eval/run_eval.py exits
+# non-zero if any observed value falls below its threshold -- that
+# failure is what CI (.github/workflows/ci.yml) turns into a red build.
+#
+# These were set from the actual baseline run against the recorded
+# extractive-generator fixtures (48 golden cases, 129 claims):
+#   groundedness = 1.0000, citation_precision = 1.0000,
+#   refusal_correctness = 0.9167 (44/48 -- see README "Known limitations"
+#   for the 4 specific cases that miss, all traced to TF-IDF retrieval
+#   recall rather than the verification/generation logic).
+# Thresholds sit with a small margin below that baseline so ordinary
+# nondeterminism doesn't flake the build, while a real regression (a
+# retrieval/generation/verification change that meaningfully drops any
+# of the three metrics) still trips the gate.
+groundedness: 0.95
+citation_precision: 0.90
+refusal_correctness: 0.85

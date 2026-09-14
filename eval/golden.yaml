@@ -1,0 +1,259 @@
+# Golden evaluation set.
+#
+# Each case is an independent oracle: `expected_chunk_ids` and
+# `expected_behavior` were determined by reading the source PDFs
+# directly (see corpus/SOURCES.md), NOT by running the pipeline and
+# recording what it happened to do. That is the whole point of a golden
+# set -- eval/run_eval.py measures how well the actual system lives up
+# to this independently-authored ground truth, so it can regress.
+#
+# expected_behavior:
+#   answer  -- the corpus genuinely contains the information; the system
+#              should answer, citing (at least one of) expected_chunk_ids.
+#   refuse  -- the corpus does NOT contain the information; the system
+#              should say so rather than answer, so expected_chunk_ids is
+#              empty.
+#
+# 48 cases total: 34 "answer" (spanning both source documents) + 14
+# "refuse" (genuinely unanswerable from this corpus -- specific figures,
+# unrelated law, general knowledge, current events).
+
+- id: q001
+  question: "Is everyone equal before the law in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s6]
+
+- id: q002
+  question: "Who exercises legislative power in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s3]
+
+- id: q003
+  question: "Is Finland a sovereign republic?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s1]
+
+- id: q004
+  question: "How does a child acquire Finnish citizenship?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s5]
+
+- id: q005
+  question: "Does everyone have the right to life and liberty under the Finnish constitution?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s7]
+
+- id: q006
+  question: "What is the principle of legality in Finnish criminal law?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s8]
+
+- id: q007
+  question: "Do Finnish citizens have freedom of movement and the right to leave the country?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s9]
+
+- id: q008
+  question: "Does the constitution guarantee freedom of religion and conscience?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s11]
+
+- id: q009
+  question: "Does everyone have freedom of expression under the Finnish constitution?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s12]
+
+- id: q010
+  question: "Is freedom of assembly and freedom of association protected in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s13]
+
+- id: q011
+  question: "Is property protected under the Finnish constitution?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s15]
+
+- id: q012
+  question: "What are the national languages of Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s17]
+
+- id: q013
+  question: "Does the constitution protect the right to work and to conduct a business?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s18]
+
+- id: q014
+  question: "Does everyone have a right to social security in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s19]
+
+- id: q015
+  question: "How many Members of Parliament are there in Finland and what is their electoral term?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s24]
+
+- id: q016
+  question: "How is the President of the Republic of Finland elected?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s54]
+
+- id: q017
+  question: "Who is responsible for governmental and administrative matters in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s65]
+
+- id: q018
+  question: "How does a proposal for the enactment of an Act of Parliament come before Parliament?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s70]
+
+- id: q019
+  question: "In what languages are Acts of Parliament enacted and published in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s79]
+
+- id: q020
+  question: "What must an Act of Parliament governing state tax contain?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s81]
+
+- id: q021
+  question: "Who supervises the operations of the Bank of Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s91]
+
+- id: q022
+  question: "Who directs the foreign policy of Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s93]
+
+- id: q023
+  question: "What are the general courts of Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s98]
+
+- id: q024
+  question: "Who appoints permanent judges in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s102]
+
+- id: q025
+  question: "What happens if a provision of an Act of Parliament manifestly conflicts with the constitution?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s106]
+
+- id: q026
+  question: "When did the Constitution of Finland enter into force?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s130]
+
+- id: q027
+  question: "Who is included in the Government of Finland according to the constitution?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s60]
+
+- id: q028
+  question: "Is every Finnish citizen obligated to participate in national defence?"
+  expected_behavior: answer
+  expected_chunk_ids: [const-731-1999-s127]
+
+- id: q029
+  question: "What is the purpose of a trial period in a Finnish employment contract?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p6]
+
+- id: q030
+  question: "What are prohibited grounds for discrimination against an employee in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p8]
+
+- id: q031
+  question: "How must an employee's pay normally be paid in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p10]
+
+- id: q032
+  question: "Can Finnish employees choose their retirement age flexibly under the Employee Pensions Act?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p21]
+
+- id: q033
+  question: "On what grounds can an employer lay off an employee in Finland?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p20]
+
+- id: q034
+  question: "What notice period must a Finnish employee observe when resigning after more than 5 years of employment?"
+  expected_behavior: answer
+  expected_chunk_ids: [emp-guide-tem-p24]
+
+- id: r001
+  question: "What is the current value-added tax (VAT) rate in Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r002
+  question: "What is the speed limit on Finnish motorways?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r003
+  question: "How many public holidays are there in Finland each year?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r004
+  question: "What is the statutory minimum wage in Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r005
+  question: "What is the boiling point of water?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r006
+  question: "What is the maximum penalty for theft under the Finnish Criminal Code?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r007
+  question: "What is the current population of Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r008
+  question: "What is the corporate income tax rate for Finnish companies?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r009
+  question: "What is the process for registering a limited liability company in Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r010
+  question: "What is the average monthly retirement pension amount in Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r011
+  question: "What is the process for filing for divorce in Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r012
+  question: "Who won the most recent Finnish presidential election?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r013
+  question: "What is the exchange rate between the euro and the US dollar?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
+
+- id: r014
+  question: "What are the visa requirements for a US citizen visiting Finland?"
+  expected_behavior: refuse
+  expected_chunk_ids: []
